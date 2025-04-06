@@ -1,0 +1,27 @@
+[
+  {
+    "stationid": ["Integer", 0],
+    "city": ["String", 90, 70],
+    "temp": ["Integer", 10],
+    "rain": ["Integer", 0],
+    "wind": ["Integer", 0],
+    "date": ["Date", 0]
+  },
+  {
+    "stationid": "[1 25]",
+    "temp": "[-20 40]",
+    "rain": "(0 20)",
+    "wind": "[0 50]"
+  },
+  [
+    "=",
+    "<",
+    ">",
+    "<=",
+    ">="
+  ],
+  {
+    "IS_MULTI_PROC": 1,
+    "NUMBER_OF_PROC": 4
+  }
+]
